@@ -1,0 +1,25 @@
+{
+  "name": "swanda-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eung-Git/SWANDA-Front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Eung-Git/SWANDA-Front/issues"
+  },
+  "homepage": "https://github.com/Eung-Git/SWANDA-Front#readme",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
