@@ -8,24 +8,24 @@ import "./App.css";
 function App() {
     // 로그인 상태 관리
     const [isLoggedIn, setIsLoggedIn] = useState(false); // 초기값: 비로그인 상태
-    const [userName, setUserName] = useState(""); // 로그인한 사용자 이름
+    const [nickname, setnickname] = useState(""); // 로그인한 사용자 이름
 
     // 로그인 함수
     const handleLogin = (name) => {
         setIsLoggedIn(true);
-        setUserName(name); // 사용자 이름 설정
+        setnickname(name); // 사용자 이름 설정
     };
 
     // 로그아웃 함수
     const handleLogout = () => {
         setIsLoggedIn(false);
-        setUserName("");
+        setnickname("");
     };
 
     return (
         <Router>
             <div className="container">
-                <Header isLoggedIn={isLoggedIn} userName={userName} onLogout={handleLogout} />
+                <Header isLoggedIn={isLoggedIn} nickname={nickname} onLogout={handleLogout} />
 
                 {/* 로그인 테스트 버튼 */}
                 <div style={{ marginTop: "50px", textAlign: "center" }}>

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import "./header.css";
 
-const Header = ({ isLoggedIn, userName, onLogout }) => {
+const Header = ({ isLoggedIn, nickname, onLogout }) => {
     return (
         <header className="header">
             <nav className="logo">
