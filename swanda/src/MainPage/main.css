@@ -1,4 +1,4 @@
-.container {
+.main-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -8,6 +8,7 @@
     align-items: center;
     width: 80%;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
 .inputBox {

@@ -34,7 +34,7 @@ const Main = () => {
     };
 
     return (
-        <div className="container">
+        <div className="main-container">
             {/* 제목 입력 */}
             <div className="inputBox">
                 <h2 className="heading">제목 입력</h2>
